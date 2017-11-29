@@ -1,14 +1,16 @@
 {
-  "name": "es6.io",
+  "name": "es6-proto",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "budo index.js --live --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Wes Bos",
+  "author": "James Morgan <james@jamesmorgan.io> (https://jamesmorgan.io)",
   "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "budo --host localhost --live --open -- -t babelify"
+  },
   "devDependencies": {
-    "budo": "^8.3.0"
+    "babel-core": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babelify": "8.0.0"
   }
 }
