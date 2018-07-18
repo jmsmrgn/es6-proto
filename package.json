@@ -1,16 +1,16 @@
 {
-  "name": "es6-proto",
+  "name": "rapido",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "James Morgan <james@jamesmorgan.io> (https://jamesmorgan.io)",
+  "author": "James Morgan <james@morgan.cx> (https://morgan.cx)",
   "license": "MIT",
-  "private": true,
   "scripts": {
-    "start": "budo --host localhost --live --open -- -t babelify"
+    "start": "node server.js"
   },
   "devDependencies": {
-    "babel-core": "6.26.0",
-    "babel-preset-env": "1.6.1",
-    "babelify": "8.0.0"
+    "babel-core": "latest",
+    "babel-preset-env": "latest",
+    "babelify": "latest",
+    "budo": "latest"
   }
 }
