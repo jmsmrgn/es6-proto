@@ -1,6 +1,6 @@
-## es6-proto
+## rapido
 
-Starter files for rapid prototyping in ES6
+rapid protoyping via [budo](https://github.com/mattdesl/budo/)
 
 ```bash
 yarn
